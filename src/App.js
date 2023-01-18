@@ -1,4 +1,8 @@
 import './App.css';
+/* Import components here in this pattern: */
+import Template from './Template'; //this is only an example that is for reference only. Delete this line when you are done with this example.
+//See Template.js for more information on how to create your own component.
+
 import logo from './images/upward-bound-big-logo.png';
 import student1 from './images/student1.png';
 
@@ -29,7 +33,7 @@ function App() {
         </div>
       </div>
       <div className="graybg" id="about"> 
-        {/* About section goes inside this div, so on and so forth */}
+        <Template></Template> {/* This is an example of how to import a component. Delete this line when you are done with this example. */}
       </div> 
       <div className="redbg" id="benefits"> 
         {/* Benefits */}
