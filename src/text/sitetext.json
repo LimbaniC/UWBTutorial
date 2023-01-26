@@ -1,0 +1,65 @@
+{
+    "nav": {
+        "home": "Home",
+        "about": "About",
+        "benefits": "Benefits",
+        "development": "Development",
+        "expectations": "Expectations",
+        "testimonials": "Testimonials",
+        "apply": "Apply"
+    },
+    "home": {
+        "header": "Enrich your learning with Upward Bound!",
+        "image": "student1.png",
+        "description": "Upward Bound program is a year-round, federally sponsored, educational program serving high school students from Springfield's High School of Commerce."
+    },
+    "about": {
+        "header": "About",
+        "image": "placeholder.png",
+        "description": "Upward Bound stresses the development of academic skills and internal motivation for students who might not traditionally be considered college-bound. During the academic year, participants are provided a variety of services ranging from individual tutoring, career advising, and SAT and MCAS prep to college-positive workshops, cultural enrichment, and much more. In addition, the program addresses other issues critical to success in high school and college such as time management, self-discipline, responsibility, self esteem, multicultural knowledge, social justice, and respect.\nStudents are eligible to participate if they are from families in which neither parent has a bachelor’s degree and/or if they qualify as low -income. Upward Bound’s goal is to increase the rate at which participants successfully complete high school and enroll in and graduate from college."
+    },
+    "benefits": {
+        "header": "Benefits",
+        "image": "placeholder.png",
+        "types": [
+            {
+                "header": "Personal",
+                "icon": "placeholder.png",
+                "bullets": [
+                    "Strengthened ability to read, write, and communicate.",
+                    "Expanded vocabulary and improved word usage.",
+                    "Improved analytical, reflective, and critical thinking skills.",
+                    "Preparation for the rigor of college academics by enrolling and succeeding in higher-level courses.",
+                    "Development of the skills and qualities that contribute to positive personal growth and development."
+                ]
+            },
+            {
+                "header": "Community",
+                "icon": "placeholder.png",
+                "bullets": [
+                    "Expanded worldview.",
+                    "Contributions through community service to build understanding of social justice."
+                ]
+            },
+            {
+                "header": "Future",
+                "icon": "placeholder.png",
+                "bullets": [
+                    "Being prepared to make informed and appropriate choices regarding higher education.",
+                    "Development of a life-long love for learning and the skills needed to accomplish any goal."
+                ]
+            }
+        ]
+    },
+    "development": {
+        "header": "Year-round Development",
+        "image": "placeholder.png",
+        "description": "Through a partnership with the University of Massachusetts Amherst, a Summer Institute supports students’ year-round development. The Institute takes place over six weeks during June, July, and/or August, providing students with the experience of living on a college campus, taking higher-level courses, and enjoying fun, educational activities during the day."
+    },
+    "apply": {
+        "header": "Apply now!",
+        "description": "Ready to take the next step towards your college dreams? Apply now for our Upward Bound program and get the support you need to succeed in high school and beyond!",
+        "button": "Sign Up",
+        "formlink": "#"
+    }
+}
