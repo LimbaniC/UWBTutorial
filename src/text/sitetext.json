@@ -61,5 +61,8 @@
         "description": "Ready to take the next step towards your college dreams? Apply now for our Upward Bound program and get the support you need to succeed in high school and beyond!",
         "button": "Sign Up",
         "formlink": "#"
+    },
+    "latest":{
+        "header": "Latest Events"
     }
 }

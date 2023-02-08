@@ -7,7 +7,7 @@ import UBHero from './UBHero.js';
 import UBWhiteSection from './UBWhiteSection.js';
 import UBBenefits from './UBBenefits.js';
 import UBApply from './UBApply.js'
-
+import UBLatest from './UBLatest.js'
 
 import './css/styles.css'
 import sitetext from './text/sitetext.json'
@@ -16,19 +16,13 @@ import { useState } from "react"
 function App() {
   const [curSection, setSection] = useState("home")
   return (
-    <>
+    <body scroll="no" style={{overflow: 'hidden'}}>
       <UBNav id="nav" text={sitetext.nav} curSection={curSection}/>
       <UBHero id="home" text={sitetext.home} setSection={setSection}/>
       <UBWhiteSection id="about" text={sitetext.about} setSection={setSection}/>
       <UBBenefits id="benefits" text={sitetext.benefits} setSection={setSection}/>
       <UBWhiteSection id="development" text={sitetext.development} setSection={setSection}/>
-      <div className="redbg" id="expectations"> 
-        {/* 
-        Note: Expectations should have a redsec class. Import in the following format:
-        <UBExpectations id="expectations" text={sitetext.expectations} setSection={setSection}/>
-        Delete the enclosing div when you are done.
-        */}
-      </div> 
+      <UBLatest id = "latest" text = {sitetext.latest} setSection = {setSection}/>
       <div className="graybg" id="testimonials"> 
         {/* Testimonials should have a whitesec class. Import in the following format:
         <UBTestimonials id="testimonials" text={sitetext.testimonials} setSection={setSection}/>
@@ -42,7 +36,7 @@ function App() {
         Delete the enclosing div when you are done.
         */}
       </div>
-    </>
+    </body>
   );
 }
 
