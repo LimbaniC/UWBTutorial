@@ -16,7 +16,7 @@ import { useState } from "react"
 function App() {
   const [curSection, setSection] = useState("home")
   return (
-    <>
+    <body scroll="no" style={{overflow: 'hidden'}}>
       <UBNav id="nav" text={sitetext.nav} curSection={curSection}/>
       <UBHero id="home" text={sitetext.home} setSection={setSection}/>
       <UBWhiteSection id="about" text={sitetext.about} setSection={setSection}/>
@@ -36,7 +36,7 @@ function App() {
         Delete the enclosing div when you are done.
         */}
       </div>
-    </>
+    </body>
   );
 }
 
