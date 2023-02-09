@@ -5,7 +5,7 @@ const Latest = props => {
     return (
         <div ref={ref} id={props.id} className="redsec">
             <div id="latesttext">
-            <h1>{props.text.header}</h1>
+            <h2>{props.text.header}</h2>
                 <Embed/>
             </div>
         </div>
