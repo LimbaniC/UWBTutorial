@@ -5,7 +5,9 @@ import Template from './Template'; //this is only an example that is for referen
 import UBNav from './UBNav.js';
 import UBHero from './UBHero.js';
 import UBWhiteSection from './UBWhiteSection.js';
+import UBDevelopment from './UBDevelopment.js';
 import UBBenefits from './UBBenefits.js';
+import UBTestimonials from './UBTestimonials.js';
 import UBApply from './UBApply.js'
 
 import logo from './images/upward-bound-big-logo.png';
@@ -47,13 +49,11 @@ function App() {
       */}
       <UBWhiteSection id="about" text={sitetext.about} setSection={setSection}/>
       <UBBenefits id="benefits" text={sitetext.benefits} setSection={setSection}/>
-      <UBWhiteSection id="development" text={sitetext.development} setSection={setSection}/>
+      <UBDevelopment id="development" text={sitetext.development} setSection={setSection}/>
       <div className="redbg" id="expectations"> 
         {/* Expectations */}
-      </div> 
-      <div className="graybg" id="testimonials"> 
-        {/* Testimonials */}
       </div>
+      <UBTestimonials id="testimonials" text={sitetext.testimonials} setSection={setSection}/>
       <UBApply id="apply" text={sitetext.apply} setSection={setSection}/>
       <div className="redbg" id="contact"> 
         {/* Contact */}

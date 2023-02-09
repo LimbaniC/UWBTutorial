@@ -8,6 +8,7 @@ const UBBenefits = props => {
       </div>
       <div id="benefitstext" className="sectionhalf">
         <h2>{props.text.header}</h2>
+        <p dangerouslySetInnerHTML={{__html: props.text.description}}></p>
         {props.text.types.map(type => (
           <div key={type.header} className="benefittype">
             <div className="typeicon">
