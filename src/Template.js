@@ -1,23 +1,19 @@
-import './Template.css';
-
-/* 
-Note: This template is a component that can be imported into App.js
-
-DO NOT DELETE OR MODIFY THIS FILE. Follow the instructions below to create your own component.
-
-To import your component into App.js, follow these steps:
-
-Step 1: Copy the "Template.js" file and "Template.css" file into the "src" folder
-Step 2: Rename each occurence of the word "Template" in the files you just copied to the name of your component, including the file names. 
-Step 3: Add your code to the .js file and your CSS to the .css file.
-Step 4: Import your component into App.js (e.g. if your component is called "About", import it like this: import About from './About';)
-Step 5: Add your component to the corresponding div in App.js. (e.g. if you want your component to be in the "about" section, add only <About></About> to the div with the id "about")
-
-*/
-export default function Template() {
+/* Note: This template file is for reference only. Copy this file and rename it to the name of your component, as well as the name of the file and the name of the function. */
+/* After you have completed your component, import it into App.js. See the existing components for reference. */
+/* New CSS should be added to src/css/styles.css. Give your div or img a unique id and use that id to style your component. Do not change the existing CSS. */
+/* New images should be added to src/images and should be accessed using the following format: <img src={props.text.(path to image)}/> */
+/* To create text for your section, create a new object in sitetext.json. See the existing JSON objects for reference. */
+import NewSectionRef from "./NewSectionRef"
+const Template = props => {
+  const ref = NewSectionRef(props)
   return (
-        <>
-            <div className="about"> Hey! I'm a template! </div>
-        </>
-    );
+    <div ref={ref} id={props.id} className=""> {/* insert redsec or whitesec in the className attribute as specified for each section. */}
+        {/* 
+            Insert your content here. 
+            Site text and images should ONLY be stored in src/text/sitetext.json and should ONLY be accessed using the props.text.(section).(content) format.
+            For reference, see src/UBHero.js.
+        */}
+    </div>
+  );
 }
+export default Template

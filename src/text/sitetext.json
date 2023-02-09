@@ -116,5 +116,8 @@
         "description": "Students are eligible to participate if the guardian they live with has not completed a bachelor’s degree and/or if they qualify as low-income.",
         "button": "Sign Up",
         "formlink": "#"
+    },
+    "latest":{
+        "header": "Latest Events"
     }
 }
