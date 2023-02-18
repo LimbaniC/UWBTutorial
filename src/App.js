@@ -5,7 +5,9 @@ import Template from './Template'; //this is only an example that is for referen
 import UBNav from './UBNav.js';
 import UBHero from './UBHero.js';
 import UBWhiteSection from './UBWhiteSection.js';
+import UBDevelopment from './UBDevelopment.js';
 import UBBenefits from './UBBenefits.js';
+import UBTestimonials from './UBTestimonials.js';
 import UBApply from './UBApply.js'
 import UBLatest from './UBLatest.js'
 
@@ -21,14 +23,9 @@ function App() {
       <UBHero id="home" text={sitetext.home} setSection={setSection}/>
       <UBWhiteSection id="about" text={sitetext.about} setSection={setSection}/>
       <UBBenefits id="benefits" text={sitetext.benefits} setSection={setSection}/>
-      <UBWhiteSection id="development" text={sitetext.development} setSection={setSection}/>
+      <UBDevelopment id="development" text={sitetext.development} setSection={setSection}/>
       <UBLatest id = "latest" text = {sitetext.latest} setSection = {setSection}/>
-      <div className="graybg" id="testimonials"> 
-        {/* Testimonials should have a whitesec class. Import in the following format:
-        <UBTestimonials id="testimonials" text={sitetext.testimonials} setSection={setSection}/>
-        Delete the enclosing div when you are done.
-        */}
-      </div>
+      <UBTestimonials id="testimonials" text={sitetext.testimonials} setSection={setSection}/>
       <UBApply id="apply" text={sitetext.apply} setSection={setSection}/>
       <div className="redbg" id="contact"> 
         {/* Contact should have a redsec class. Import in the following format below:
