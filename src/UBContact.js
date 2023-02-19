@@ -6,6 +6,7 @@ const UBContact = props => {
         <div className="sectionquarter">
             <img src={props.text.image}/>
             <h4>{props.text.description}</h4>
+            <p>Made with &#128151; by BUILD UMass</p>
         </div>
         {
             props.text.sections.map(section=>{
