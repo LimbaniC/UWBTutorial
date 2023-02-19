@@ -10,6 +10,7 @@ import UBBenefits from './UBBenefits.js';
 import UBTestimonials from './UBTestimonials.js';
 import UBApply from './UBApply.js'
 import UBLatest from './UBLatest.js'
+import UBContact from './UBContact';
 
 import './css/styles.css'
 import sitetext from './text/sitetext.json'
@@ -27,12 +28,8 @@ function App() {
       <UBLatest id = "latest" text = {sitetext.latest} setSection = {setSection}/>
       <UBTestimonials id="testimonials" text={sitetext.testimonials} setSection={setSection}/>
       <UBApply id="apply" text={sitetext.apply} setSection={setSection}/>
-      <div className="redbg" id="contact"> 
-        {/* Contact should have a redsec class. Import in the following format below:
-        <UBContact id="contact" text={sitetext.contact} setSection={setSection}/>
-        Delete the enclosing div when you are done.
-        */}
-      </div>
+      <UBContact id="contact" text={sitetext.contact} setSection={setSection}/>
+     
     </body>
   );
 }

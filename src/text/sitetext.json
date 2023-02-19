@@ -17,17 +17,17 @@
     },
     "about": {
         "header": "About",
-        "image": "placeholder.png",
+        "image": "about.png",
         "description": "The UMass Amherst Upward Bound program is a year-long college preparatory program for first-generation and/or low-income high school students from Springfield, MA. We are committed to providing our students with opportunities to access higher education. In doing so, we recognize and work to confront barriers students face due to issues of race, class, gender, sexual orientation, ability, and more.\nUpward Bound is an intentionally inclusive program that celebrates diversity and the cultural and personal strengths each participant brings with them. We work together with youth to meet their academic and personal goals.\nWe provide customized individual attention and work with you toward your goals. Upward Bound’s central aim is to support each and every student in developing a college-going identity and successfully apply to, achieve admission to, and graduate from their college of choice. We provide academic, informational, and motivational support to participants as they prepare for — and embark on — this journey."
     },
     "benefits": {
         "header": "Benefits",
-        "image": "placeholder.png",
+        "image": "benefits.png",
         "description": "Students receive a small stipend for attending Upward Bound programming, but <b>all programming itself (classes, meals, on-campus housing, and transportation) is free</b>",
         "types": [
             {
                 "header": "In your academics",
-                "icon": "placeholder.png",
+                "icon": "benefits_personal.png",
                 "bullets": [
                     "Strengthen your ability to read, write, and communicate.",
                     "Expand your verbal understanding in class (vocabulary and concepts)",
@@ -39,7 +39,7 @@
             },
             {
                 "header": "In your community",
-                "icon": "placeholder.png",
+                "icon": "benefits_community.png",
                 "bullets": [
                     "Expand your worldview within and beyond Springfield",
                     "Contribute through community service",
@@ -48,7 +48,7 @@
             },
             {
                 "header": "For your future",
-                "icon": "placeholder.png",
+                "icon": "benefits_future.png",
                 "bullets": [
                     "Become prepared to make informed and appropriate choices regarding your choices for higher education.",
                     "Develop the skills and qualities that contribute to positive personal growth and development (tools for wellbeing, healthy relationships, values clarification, stress management).",
@@ -59,7 +59,7 @@
     },
     "development": {
         "header": "Year-round Development",
-        "image": "placeholder.png",
+        "image": "year-round-dev.png",
         "programs": [
             {
                 "header": "School-Year Programming",
@@ -90,23 +90,23 @@
         "description": "Here are some stories and words of appreciation from our program participants. Low-income and first-generation backgrounds have benefited greatly from the academic  and cultural enrichment activities provided by our program.",
         "quotes": [
             {
-                "image": "placeholder.png",
+                "image": "testimonial1.png",
                 "text": "Upward Bound represents the embodiment of love. This is because of how we are treated and how we treat our peers."
             },
             {
-                "image": "placeholder.png",
+                "image": "testimonial2.png",
                 "text": "Among my peers, we don't have successful family members or role models to look up to, but Upward Bound allows us to have adults to look up to, adults who truly believe in us."
             },
             {
-                "image": "placeholder.png",
+                "image": "testimonial3.png",
                 "text": "The atmosphere allows me to feel confident in my abilities as a scholar, but also as a person."
             },
             {
-                "image": "placeholder.png",
+                "image": "testimonial4.png",
                 "text": "It encourages a healthy environment where I can grow, and unequivocally be myself."
             },
             {
-                "image": "placeholder.png",
+                "image": "testimonial5.png",
                 "text": "Upward Bound pushes me to be the best I can be."
             }
         ]
@@ -119,5 +119,78 @@
     },
     "latest":{
         "header": "Latest Events"
+    },
+    "contact":{
+        "image":"ublogo.png",
+        "description":"Upward Bound is a federally-funded program that provides educational support to low-income, first-generation college students.",
+        "sections":[
+            {
+                "header":"Organization",
+                "texts":[
+                   {
+                    "text":"About",
+                    "link":"#about"
+                   },
+                   {
+                    "text":"Benefits",
+                    "link":"#benefits"
+                   },
+                   {
+                    "text":"Development",
+                    "link":"#development"
+                   },
+                   {
+                    "text":"Latest Events",
+                    "link":"#latest"
+                   },
+                   {
+                    "text":"Testimonials",
+                    "link":"#testimonials"
+                   }
+                ]
+            },
+            {
+                "header":"Learn More",
+                "texts":[
+                    {
+                        "text":"Get Involved",
+                        "link":"#apply"
+                    },
+                    {
+                        "text":"Donate",
+                        "link":"javascript:;"    
+                    },
+                    {
+                        "text":"Volunteer",
+                        "link":"mailto:bridgethynes@umass.edu?subject=Volunteer%20Opportunities&body=Hi%20Bridget%2C%0D%0A%0D%0AI%20would%20like%20to%20volunteer%20at%20Upward%20Bound.%20Are%20there%20any%20opportunities%20available%20right%20now%3F"
+                    },
+                    {
+                        "text":"Resources",
+                        "link":"javascript:;"
+                    },
+                    {
+                        "text":"Back to the top",
+                        "link":"#home"
+                    }
+                ]
+            },
+            
+            {
+                "header":"Contact",
+                "texts":[
+                    {
+                        "text":"(413) 545-2517",
+                        "link":"tel:+14135452517"
+                    },
+                    {
+                        "text":"bridgethynes@umass.edu",
+                        "link":"mailto:bridgethynes@umass.edu"
+                    }
+                    
+                    
+                ]
+            }
+        ]
     }
 }
+
