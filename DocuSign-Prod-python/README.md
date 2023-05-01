@@ -25,6 +25,8 @@ We could also improve the Docusign experience by tagging the document, but for n
 Original quickstart link for generating project, could be useful for working on tagging
 https://developers.docusign.com/docs/esign-rest-api/quickstart/
 
+Docusign document tags
+https://documentation.conga.com/sign/latest/salesforce/list-of-recognized-docusign-formats-for-signature-tags-208510609.html
 
 Getting started with Docusign API and Authenticating API Calls
 https://www.youtube.com/watch?v=SIdwJxgV5lc&t=402s
