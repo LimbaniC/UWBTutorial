@@ -1,0 +1,48 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+
+media_folder: "public/images" # Media files will be stored in the repo under static/images/uploads
+public_folder: "/images" # The src attribute for uploaded media will begin with /images/uploads
+
+backend:
+  name: git-gateway
+
+collections:
+  - name: "page"
+    label: "UpwardBound page"
+    file: "upward-bound\src\text\sitetext.json"
+    create: false
+    fields:
+      - {name: "home", label: "Home", widget: "string"}
+      - {name: "about", label: "About", widget: "string"}
+      - {name: "benefits", label: "Benefits", widget: "string"}
+      - {name: "development", label: "Development", widget: "string"}
+      - {name: "latest", label: "Events", widget: "string"}
+      - {name: "testimonials", label: "Testimonials", widget: "string"}
+      - {name: "apply", label: "Apply", widget: "string"}
+      - {name: "header", label: "Header", widget: "string"}
+      - {name: "image", label: "Image", widget: "image"}
+      - {name: "description", label: "Description", widget: "markdown"}
+      - {name: "button", label: "Button", widget: "string"}
+      - {name: "formlink", label: "Form Link", widget: "string"}
+      - {name: "header", label: "Header", widget: "string"}
+      - {name: "image", label: "Image", widget: "image"}
+      - {name: "description", label: "Description", widget: "markdown"}
+      - {name: "header", label: "Header", widget: "string"}
+      - {name: "image", label: "Image", widget: "image"}
+      - {name: "description", label: "Description", widget: "markdown"}
+      - {name: "types", label: "Types", widget: "list", fields: [
+        {name: "header", label: "Header", widget: "string"},
+        {name: "icon", label: "Icon", widget: "image"},
+        {name: "bullets", label: "Bullets", widget: "list", field: {name: "bullet", label: "Bullet", widget: "string"}}
+      ]}
+      - {name: "header", label: "Header", widget: "string"}
+      - {name: "image", label: "Image", widget: "image"}
+      - {name: "description", label: "Description", widget: "markdown"}
+      - {name: "programs", label: "Programs", widget: "list", fields: [
+        {name: "header", label: "Header", widget: "string"},
+        {name: "text", label: "Text", widget:
+
+
+
