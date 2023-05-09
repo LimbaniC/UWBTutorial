@@ -11,7 +11,9 @@ backend:
 collections:
   - name: "page"
     label: "UpwardBound page"
-    file: "upward-bound\\src\\text\\sitetext.json"
+    # file: "upward-bound\src\text\sitetext.json"
+
+    # "upward-bound\\src\\text\\sitetext.json"
     create: false
     fields:
       - {name: "home", label: "Home", widget: "string"}
