@@ -9,9 +9,10 @@ public_folder: "/images" # The src attribute for uploaded media will begin with 
 collections:
   - name: "page"
     label: "UpwardBound page"
+    folder: "upward-bound/src/text"
     extension: "json"
     file: "src/text/sitetext.json"
-    create: true
+    create: false
     fields:
       - {name: "home", label: "Home", widget: "string"}
       - {name: "about", label: "About", widget: "string"}
