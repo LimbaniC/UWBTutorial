@@ -10,7 +10,7 @@ collections:
   - name: "page"
     label: "UpwardBound page"
     folder: "upward-bound/src/text"
-    create: false
+    create: true
     fields:
       - {name: "home", label: "Home", widget: "string"}
       - {name: "about", label: "About", widget: "string"}
