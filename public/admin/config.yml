@@ -9,7 +9,7 @@ public_folder: "/images" # The src attribute for uploaded media will begin with 
 collections:
   - name: "page"
     label: "UpwardBound page"
-    # file: "upward-bound\src\text\sitetext.json"
+    file: "upward-bound\src\text\sitetext.json"
 
     # "upward-bound\\src\\text\\sitetext.json"
     create: false
@@ -18,24 +18,6 @@ collections:
       - {name: "about", label: "About", widget: "string"}
       - {name: "benefits", label: "Benefits", widget: "string"}
       - {name: "development", label: "Development", widget: "string"}
-      - {name: "latest", label: "Events", widget: "string"}
-      - {name: "testimonials", label: "Testimonials", widget: "string"}
-      - {name: "apply", label: "Apply", widget: "string"}
-      - {name: "header", label: "Header", widget: "string"}
-      - {name: "image", label: "Image", widget: "image"}
-      - {name: "description", label: "Description", widget: "markdown"}
-      - {name: "button", label: "Button", widget: "string"}
-      - {name: "formlink", label: "Form Link", widget: "string"}
-      - {name: "header", label: "Header", widget: "string"}
-      - {name: "image", label: "Image", widget: "image"}
-      - {name: "description", label: "Description", widget: "markdown"}
-      - {name: "header", label: "Header", widget: "string"}
-      - {name: "image", label: "Image", widget: "image"}
-      - {name: "description", label: "Description", widget: "markdown"}
-      - {name: "types", label: "Types", widget: "list", fields: [
-        {name: "header", label: "Header", widget: "string"},
-        {name: "icon", label: "Icon", widget: "image"},
-        {name: "bullets", label: "Bullets", widget: "list", field: {name: "bullet", label: "Bullet", widget: "string"}}
-      ]}
+    
 
 
