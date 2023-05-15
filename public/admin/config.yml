@@ -39,12 +39,5 @@ collections:
         {name: "icon", label: "Icon", widget: "image"},
         {name: "bullets", label: "Bullets", widget: "list", field: {name: "bullet", label: "Bullet", widget: "string"}}
       ]}
-      - {name: "header", label: "Header", widget: "string"}
-      - {name: "image", label: "Image", widget: "image"}
-      - {name: "description", label: "Description", widget: "markdown"}
-      - {name: "programs", label: "Programs", widget: "list", fields: [
-        {name: "header", label: "Header", widget: "string"},
-        {name: "text", label: "Text", widget:
-
 
 
