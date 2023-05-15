@@ -5,8 +5,6 @@ backend:
 media_folder: "public/images" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/images" # The src attribute for uploaded media will begin with /images/uploads
 
-backend:
-  name: git-gateway
 
 collections:
   - name: "page"
