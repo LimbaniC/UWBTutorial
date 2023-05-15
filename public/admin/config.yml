@@ -12,7 +12,7 @@ collections:
     # folder: "upward-bound/src/text"
     extension: "json"
     file: "src/text/sitetext.json"
-    create: false
+    create: true
     fields:
       - {name: "home", label: "Home", widget: "string"}
       - {name: "about", label: "About", widget: "string"}
